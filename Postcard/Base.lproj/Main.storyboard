@@ -55,6 +55,15 @@
                                     <rect key="frame" x="40" y="85" width="169" height="55"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFT-7a-n2m">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="134" width="169" height="25"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UwJ-bB-uCT">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -69,6 +78,7 @@
                                 <exclude reference="x2n-wg-Lrm"/>
                                 <exclude reference="0xm-Ie-ab7"/>
                                 <exclude reference="FXZ-2Y-Zza"/>
+                                <exclude reference="aFT-7a-n2m"/>
                                 <exclude reference="UwJ-bB-uCT"/>
                             </mask>
                         </variation>
@@ -78,6 +88,7 @@
                                 <include reference="x2n-wg-Lrm"/>
                                 <include reference="0xm-Ie-ab7"/>
                                 <include reference="FXZ-2Y-Zza"/>
+                                <include reference="aFT-7a-n2m"/>
                                 <include reference="UwJ-bB-uCT"/>
                             </mask>
                         </variation>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="lsk-aP-PNH" id="bh7-g4-rmz"/>
                         <outlet property="mailButton" destination="0xm-Ie-ab7" id="rsm-xe-yS0"/>
                         <outlet property="messageLabel" destination="FXZ-2Y-Zza" id="Tqr-wM-OzY"/>
+                        <outlet property="nameLabel" destination="aFT-7a-n2m" id="0h9-rS-b0Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
